@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operations Fernanda</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Sumas y Restas</h1>
+<div class="flexbox-container" id="buttons">
+    <button id="unidadesBtn">Sumas Unidades</button>&nbsp;&nbsp;
+    <button id="decenasBtn">Sumas Decenas</button>&nbsp;&nbsp;
+    <button id="centenasBtn">Sumas Centenas</button>&nbsp;&nbsp;
+    <button id="millaresBtn">Sumas Millares</button>&nbsp;&nbsp;
+    <button id="result">Resultados</button>
+</div>
+<div class="flexbox-container" id="printableArea">
+    <div class="flexbox-container" id="sumas"></div>
+    <div class="flexbox-container" id="decenas"></div>
+    <div class="flexbox-container" id="centenas"></div>
+    <div class="flexbox-container" id="millares"></div>
+</div>    
+<div class="flexbox-container">
+    <button onclick="window.print()">Print this page</button>
+
+        <!-- <button onclick="printPageArea('printableArea')">Print This Page</button> -->
+        <!-- <a href="javascript:void(0);" onclick="printPageArea('printableArea')">Print</a> -->
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+hr {
+  width: 50px;  
+  display: inline-block;
+}
+
+.showAnsw {
+    margin-block-start: -5px;
+    display: none;
+    color: green;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexbox-item {
+    padding: 30px;
+}
+
+button {
+    padding:20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+body {
+    /* background-image: url("image.jpg"); */
+
+}
